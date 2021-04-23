@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+            <h1 class="margin text-center">IDE.50 Project</h1>
+            <p>The teacher assign us this project so we can learn and get used to use IDE.50.Doing this project really taught me more on about how to make like a slide show by use my IDE.I learned how to link pictures and different files to make a whole adventure.</p>
+            <p>The most difficult part was puttung pictures into our files.It was the hardest to do because I didnt really learn much on how to put pictures in my IDE.I overcome the issue by asking my group for help.</p>
+            <p>If we had more time,we would had considered on doing the project in html.<p>
+            <a href="#">https://github.com/weijiej2964/Pokemon-Adventure#>Code of the project</a><br>
+
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a>-->
+            <!--EXAMPLE OF GITHUB LINK-->
+            <!--<a href="http://github.com/yourUserName/yourRepoName">Github</a>-->
+
+            <img src="../img/hello-world.png" class="img-fluid project-img">
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
